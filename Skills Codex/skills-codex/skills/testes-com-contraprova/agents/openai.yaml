@@ -1,0 +1,3 @@
+interface:
+  display_name: "Testes com contraprova"
+  short_description: "Testes que detectam uma falha concreta"

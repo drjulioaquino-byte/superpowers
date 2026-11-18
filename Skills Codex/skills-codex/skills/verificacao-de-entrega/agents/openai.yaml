@@ -1,0 +1,3 @@
+interface:
+  display_name: "Verificação de entrega"
+  short_description: "Confere requisitos, diff, head e evidências"

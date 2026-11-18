@@ -6,7 +6,7 @@ description: >-
   D-xxx, abrir ou atualizar PRs, responder à revisora e preparar a decisão de merge.
   Perguntas conceituais sem trabalho no repositório ficam fora deste fluxo.
 metadata:
-  revision: "1.0.0"
+  revision: "1.1.0"
 ---
 
 # Fluxo implementadora ↔ revisora Claude
@@ -75,6 +75,22 @@ e o que falta e aguarde nova decisão.
   dados existentes, explique como esses dados passam a ser válidos.
 - Uma ordem genérica como “Inicie” ou “pode seguir” vale para o escopo decidido.
   Recomendações ainda em discussão continuam pendentes.
+
+## Apoio de engenharia
+
+Use as skills de apoio quando a tarefa corresponder ao seu gatilho, mantendo
+este fluxo como referência de papéis, autorizações e revisão.
+
+- Para causa incerta, use [diagnostico-com-evidencia](../diagnostico-com-evidencia/SKILL.md).
+- Para regra ou correção que precise de prova de comportamento, use
+  [testes-com-contraprova](../testes-com-contraprova/SKILL.md).
+- Para alterações entre camadas ou contratos, use
+  [planejamento-por-contratos](../planejamento-por-contratos/SKILL.md).
+- Antes da entrega, use [verificacao-de-entrega](../verificacao-de-entrega/SKILL.md).
+
+Escolha as técnicas pertinentes e reutilize a evidência válida. A avaliação
+comparativa de skills é atividade própria quando solicitada. Este apoio não
+acrescenta cenários sintéticos nem uma rodada de aprovação a cada tarefa.
 
 ## 3. Abrir ou atualizar PR
 
