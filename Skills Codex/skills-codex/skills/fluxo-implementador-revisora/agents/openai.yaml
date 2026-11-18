@@ -1,0 +1,3 @@
+interface:
+  display_name: "Fluxo implementador e revisora"
+  short_description: "Implementação com revisão Claude e decisão humana"

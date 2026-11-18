@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skills-codex",
+  "version": "0.1.0",
+  "description": "Fluxos pessoais do Júlio para implementação com Codex ou Copilot, revisão Claude e decisão humana.",
+  "author": {
+    "name": "Júlio"
+  }
+}
